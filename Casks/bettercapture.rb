@@ -1,6 +1,6 @@
 cask "bettercapture" do
-  version "2026.1.3"
-  sha256 "1cee410de15581c6a89b0580e1fd166323a9f0e46be0052a91ed4b19cf64f7d3"
+  version "2026.1.4"
+  sha256 "c3dc8d7e373ee1d07274f8ee70a755600f9d378afdf03b8ac1491927993fb896"
 
   url "https://github.com/jsattler/BetterCapture/releases/download/v#{version}/BetterCapture-#{version}-arm64.dmg",
       verified: "github.com/jsattler/BetterCapture/"
