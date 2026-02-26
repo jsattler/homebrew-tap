@@ -1,6 +1,6 @@
 cask "pulse" do
   version "2026.1"
-  sha256 "2d7f843e4eedea42720f68febb6f1c0eec925f7f10cc95db97b8414ba3879cc1"
+  sha256 "c66bb65ec1f10fe76c4602c75108774929810f95e47fdf921b774e6b2e62e978"
 
   url "https://github.com/jsattler/Pulse/releases/download/v#{version}/Pulse-#{version}-arm64.dmg"
   name "Pulse"
@@ -15,7 +15,7 @@ cask "pulse" do
   depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
 
-  app "BetterCapture.app"
+  app "Pulse.app"
 
   zap trash: [
     "~/Library/Application Support/Pulse",
