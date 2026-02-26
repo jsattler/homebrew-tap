@@ -2,8 +2,7 @@ cask "bettercapture" do
   version "2026.2.1"
   sha256 "2d7f843e4eedea42720f68febb6f1c0eec925f7f10cc95db97b8414ba3879cc1"
 
-  url "https://github.com/jsattler/BetterCapture/releases/download/v#{version}/BetterCapture-#{version}-arm64.dmg",
-      verified: "github.com/jsattler/BetterCapture/"
+  url "https://github.com/jsattler/BetterCapture/releases/download/v#{version}/BetterCapture-#{version}-arm64.dmg"
   name "BetterCapture"
   desc "The macOS screen recorder you deserve - always free and open source"
   homepage "https://github.com/jsattler/BetterCapture"
